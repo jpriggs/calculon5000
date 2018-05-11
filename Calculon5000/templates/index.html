@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+        <title>Calculon 5000</title>
+    </head>
+    <body class="main-body">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-md-12">
+            <div class="calc-body">
+              <div class="row">
+                <div class="col-xs-12 col-md-12">
+                  <span class="model-name">Calculon 5000</span><span class="brand-title">Digital Calculator</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-md-12">
+                  <div class="display">
+                    <div class="row">
+                      <div class="col-xs-12 col-md-12">
+                        <p class="sum-total"></p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-xs-12 col-md-12">
+                        <p class="history"></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <button class="button clear-btn" value="ac">ac</button>
+                <button class="button clear-btn" value="ce">ce</button>
+                <button class="button divide" value="/">&divide</button>
+                <button class="button multiply" value="*">x</button>
+              </div>
+              <div class="row">
+                <button class="button" value="7">7</button>
+                <button class="button" value="8">8</button>
+                <button class="button" value="9">9</button>
+                <button class="button minus" value="-">-</button>
+              </div>
+              <div class="row">
+                <button class="button" value="4">4</button>
+                <button class="button" value="5">5</button>
+                <button class="button" value="6">6</button>
+                <button class="button plus" value="+">+</button>
+              </div>
+              <div class="row">
+                <button class="button" value="1">1</button>
+                <button class="button" value="2">2</button>
+                <button class="button" value="3">3</button>
+                <button class="invisible" value="N"></button>
+              </div>
+              <div class="row">
+                <button class="button zero-button" value="0">0</button>
+                <button class="button decimal" value=".">.</button>
+                <button class="button equal-button" value="=">=</button>
+              </div>
+              <div class="row">
+          <div class="col-xs-12 col-md-12">
+            <div class="footer">
+              <p>Created by: <a href="https://github.com/jpriggs">Jason Rigdon</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+</html>

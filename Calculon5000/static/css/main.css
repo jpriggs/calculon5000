@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css?family=Aldrich');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Nova+Square');
+@import url('https://fonts.googleapis.com/css?family=Revalia');
+body {
+  overflow-x: hidden;
+}
+.main-body {
+  background-color: #7ABED6;
+background-image: repeating-linear-gradient(transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),
+repeating-linear-gradient(270deg, transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),
+repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(0,0,0,.2) 2px, rgba(0,0,0,.2) 3px, transparent 3px, transparent 5px, rgba(0,0,0,.2) 5px);
+}
+.calc-body {
+  background: #CCCC00;
+  height: 650px;
+  width: 500px;
+  margin: 25px auto;
+  border: 1px solid #999900;
+  border-radius: 40px;
+  box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -3px 30px 0.8px #CAE599;
+}
+.model-name {
+  font-family: 'Aldrich', sans-serif;
+  font-size: 26px;
+  color: #AEB3B4;
+  margin-left: 30px;
+  text-shadow: -0.5px 0.5px black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+.brand-title {
+  font-family: 'Great Vibes', cursive;
+  font-size: 24px;
+  color: #C2C2C2;
+  margin-left: 90px;
+  text-shadow: -0.5px 0.5px black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+.display {
+  background: #FFFACD;
+  height: 100px;
+  width: 450px;
+  margin: 3px auto 10px;
+  border: 2px solid #999900;
+  border-radius: 30px;
+  box-shadow: inset 1px 1px 10px 0.1px black;
+}
+.sum-total {
+  font-family: 'Nova Square', cursive;
+  font-size: 54px;
+  text-align: right;
+  margin-top: -10px;
+  padding: 0 10px 0 0;
+}
+.history {
+  font-family: 'Nova Square', cursive;
+  font-size: 25px;
+  text-align: right;
+  margin-top: -35px;
+  padding: 0 10px 0 0;
+}
+.button {
+  background-color: #FFA812;
+  color: white;
+  font-family: 'Revalia', cursive;
+  font-size: 28px;
+  height: 75px;
+  width: 75px;
+  margin-top: 15px;
+  margin-left: 45px;
+  padding-bottom: 7px;
+  border: 3px solid #B8860B;
+  border-radius: 40px;
+  text-shadow: -1px 1px black, 0 1px black, 1px 0 black, 0 -1px black;
+  box-shadow: 0px 2px 0px 0.5px #54441E, inset -3px -3px 20px 8px #B8860B, inset -3px -3px 10px 0px #8B6508;
+}
+.button.clear-btn {
+  background-color: #58D4FB;
+  border: 3px solid #47A4C3;
+  box-shadow: 0px 2px 0px 0.5px #1E4754, inset -3px -3px 20px 8px #47A4C3, inset -3px -3px 10px 0px #3A88A2;
+}
+.button.divide {
+  font-size: 34px;
+}
+.button.multiply {
+  font-size: 32px;
+}
+.button.minus {
+  font-size: 42px;
+}
+.button.plus {
+  font-size: 42px;
+}
+.button.decimal {
+  font-size: 42px;
+}
+.button.zero-button {
+  width: 200px;
+}
+.button.equal-button {
+  background-color: #56CC5C;
+  font-size: 42px;
+  height: 170px;
+  margin-top: -75px;
+  border: 3px solid #44A449;
+  box-shadow: 0px 2px 0px 0.5px #1B461D, inset -3px -3px 20px 8px #44A449, inset -3px -3px 10px 0px #29622C;
+}
+button:active{
+  transform: translate(0px, 3px);
+  box-shadow: inset -3px -3px 20px 8px #B8860B, inset -3px -3px 10px 0px #8B6508;
+}
+button.clear-btn:active {
+  box-shadow: inset -3px -3px 20px 8px #47A4C3, inset -3px -3px 10px 0px #3A88A2;
+}
+button.equal-button:active {
+  box-shadow: inset -3px -3px 20px 8px #44A449, inset -3px -3px 10px 0px #29622C;
+}
+button,
+button:hover,
+button:active,
+button:visited {
+  text-decoration: none !important;
+  outline: none !important;
+}
+.footer {
+  text-align: center;
+  margin-top: 5px;
+}
+.footer p {
+  font-family: 'Aldrich', sans-serif;
+  font-size: 18px;
+  color: #C2C2C2;
+  text-shadow: -0.5px 0.5px black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+.footer a {
+  font-family: 'Great Vibes', cursive;
+  font-size: 22px;
+  color: #AEB3B4;
+  text-decoration: none;
+  text-shadow: -0.5px 0.5px black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+@media (max-width: 520px) {
+  .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right:auto;
+    margin-left:auto
+ }
+  .calc-body {
+    width: 100%;
+    height: 600px;
+  }
+  .model-name {
+    font-size: 24px;
+    margin-left: 25px;
+  }
+  .brand-title {
+    font-size: 22px;
+    margin-left: 50px;
+  }
+  .display {
+    width: 95%;
+    height: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .sum-total {
+    font-size: 48px;
+    margin-top: -5px;
+  }
+  .history {
+    font-size: 24px;
+    margin-top: -35px;
+  }
+  .button {
+    font-size: 20px;
+    height: 78px;
+    width: 78px;
+    margin-top: 10px;
+    margin-left: 26px;
+    padding-bottom: 0px;
+  }
+  .button.divide {
+    font-size: 26px;
+  }
+  .button.multiply {
+    font-size: 22px;
+  }
+  .button.minus {
+    font-size: 26px;
+  }
+  .button.plus {
+    font-size: 26px;
+  }
+  .button.decimal {
+    font-size: 24px;
+  }
+  .button.zero-button {
+    height: 78px;
+    width: 178px;
+  }
+  .button.equal-button {
+    font-size: 26px;
+    height: 160px;
+    margin-top: -75px;
+  }
+  .footer p {
+   font-size: 16px;
+  }
+  .footer a {
+    font-size: 18px;
+  }
+}
+@media (max-width: 400px) {
+  .calc-body {
+    width: 100%;
+    height: 530px;
+  }
+  .model-name {
+    font-size: 22px;
+    margin-left: 25px;
+  }
+  .brand-title {
+    font-size: 18px;
+    margin-left: 30px;
+  }
+  .display {
+    width: 95%;
+    height: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .sum-total {
+    font-size: 44px;
+    margin-top: -5px;
+  }
+  .history {
+    font-size: 22px;
+    margin-top: -35px;
+  }
+  .button {
+    font-size: 18px;
+    height: 65px;
+    width: 65px;
+    margin-top: 10px;
+    margin-left: 28px;
+    padding-bottom: 0px;
+  }
+  .button.divide {
+    font-size: 24px;
+  }
+  .button.multiply {
+    font-size: 20px;
+  }
+  .button.minus {
+    font-size: 24px;
+  }
+  .button.plus {
+    font-size: 24px;
+  }
+  .button.decimal {
+    font-size: 22px;
+  }
+  .button.zero-button {
+    height: 65px;
+    width: 155px;
+  }
+  .button.equal-button {
+    font-size: 24px;
+    height: 140px;
+    margin-top: -60px;
+  }
+  .footer p {
+    font-size: 16px;
+  }
+  .footer a {
+    font-size: 18px;
+  }
+}
+@media (max-width: 360px) {
+  .sum-total {
+    font-size: 40px;
+  }
+  .history {
+    font-size: 22px;
+    margin-top: -30px;
+  }
+  .button {
+    margin-left: 25px;
+  }
+}
+@media (max-width: 320px) {
+  .calc-body {
+    width: 100%;
+    height: 450px;
+  }
+  .model-name {
+    font-size: 18px;
+    margin-left: 20px;
+  }
+  .brand-title {
+    font-size: 18px;
+    margin-left: 15px;
+  }
+  .display {
+    width: 95%;
+    height: 75px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .sum-total {
+    font-size: 35px;
+    margin-top: 0px;
+  }
+  .history {
+    font-size: 20px;
+    margin-top: -30px;
+  }
+  .button {
+    font-size: 18px;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 30px;
+    padding-bottom: 0px;
+  }
+  .button.divide {
+    font-size: 24px;
+  }
+  .button.multiply {
+    font-size: 20px;
+  }
+  .button.minus {
+    font-size: 24px;
+  }
+  .button.plus {
+    font-size: 24px;
+  }
+  .button.decimal {
+    font-size: 22px;
+  }
+  .button.zero-button {
+    height: 50px;
+    width: 125px;
+  }
+  .button.equal-button {
+    font-size: 24px;
+    height: 115px;
+    margin-top: -50px;
+  }
+  .footer p {
+   font-size: 14px;
+  }
+  .footer a {
+    font-size: 16px;
+  }
+}
